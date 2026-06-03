@@ -2,40 +2,61 @@
 
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC%20L1%20Alert%20Reporting-red?style=for-the-badge&logo=tryhackme)
 ![Category](https://img.shields.io/badge/Category-Blue%20Team%20/%20SOC-blue?style=for-the-badge)
+![Role Alignment](https://img.shields.io/badge/Role-Tier%201%20SOC%20Analyst-orange?style=for-the-badge)
 
 ## 🎯 Room Overview
-This write-up covers my hands-on experience in the **SOC L1 Alert Reporting** room on TryHackMe. This scenario-based room focuses on the core responsibilities of a Tier 1 SOC Analyst: analyzing security alerts, triaging events using analytical frameworks, and generating structured incident reports.
+This repository contains my step-by-step documentation, analysis, and proof of completion for the **SOC L1 Alert Reporting** room on TryHackMe. This hands-on lab simulates real-world Security Operations Center (SOC) environments, focusing on how a Tier 1 Analyst processes, reports, escalates, and communicates critical security incidents.
 
 *   **Room Link:** [TryHackMe - SOC L1 Alert Reporting](https://tryhackme.com/room/socl1alertreporting)
-*   **Core Concepts:** Alert Triage, Log Investigation, Incident Documentation, Reporting Frameworks.
+*   **Role Focus:** Tier 1 SOC Analyst / Incident Triage Specialist
 
 ---
 
-## 🛠️ Tools & Frameworks Used
-*   **SIEM / Log Analysis Tools:** Mock alert interfaces and security log outputs.
-*   **Documentation Frameworks:** Structured incident reporting templates.
+## 🛠️ Detailed Walkthrough & Investigation Steps
+
+### 🗒️ Task 1: Introduction to Alert Lifecycle
+Understanding the foundational role of a SOC Analyst, how security alerts are generated from raw logs, and the operational workflows needed to maintain continuous infrastructure visibility.
+
+![Task 1: Introduction Proof](./1.png)
 
 ---
 
-## 🚀 Investigation Methodology & Steps
+### 🌪️ Task 2: Managing the Alert Funnel
+This phase demonstrates how millions of raw events are aggregated, cross-referenced against security signatures, and filtered down into actionable alerts to minimize alert fatigue.
 
-### Step 1: Initial Alert Triage & Analysis
-The first phase involved analyzing incoming alerts within the simulated environment. I evaluated critical parameters such as event frequency, source/destination signatures, and contextual details.
-
-![Initial Alert Triage](./1.png)
-
-### Step 2: Investigating the Artifacts
-Deep dived into the logged artifacts to identify potential indicators of compromise (IoCs). This involved tracing connections and looking for suspicious behavior patterns.
-
-![Artifact Investigation](./2.png)
-
-### Step 3: Determining Verdict & Generating the Report
-Based on the evidence collected during the investigation, a final verdict was established (True Positive / False Positive) and compiled into a formal report.
-
-![Incident Report Submission](./3.png)
+![Task 2: Alert Funnel Analysis](./2.png)
 
 ---
 
-## 🧠 Key Takeaways & SOC Skills Demonstrated
-*   **Alert Lifecycle Management:** Gained practical understanding of how an alert flows from detection to triage.
-*   **Effective Documentation:** Mastered the art of writing concise, actionable technical notes.
+### 📝 Task 3: Incident Reporting Guide
+Hands-on structuring of technical and executive notes. This phase covers writing clear summaries, documenting timestamps, mapping out Source/Destination artifacts, and providing a baseline technical narrative for senior responders.
+
+![Task 3: Documentation and Reporting](./3.png)
+
+---
+
+### 📈 Task 4: Standard Escalation Matrix
+Analyzing specific alert thresholds to understand exactly when an anomaly needs a deeper dive, and when to confidently escalate it to Tier 2 Analysts or specialized Incident Response teams.
+
+![Task 4: Escalation Flow](./4.png)
+
+---
+
+### 💬 Task 5: SOC Communication Protocol
+Practicing secure, operational communication (OpSec) channels, handling verbal handovers during shift changes, and documenting remediation notes within internal communication ticketing channels.
+
+![Task 5: Security Operations Communication](./5.png)
+
+---
+
+### 🏆 Task 6: Room Completion & Conclusion
+Final submission of reports, validation of simulated alerts, and 100% completion badge confirmation.
+
+![Task 6: Final Completion Verification](./6.png)
+
+---
+
+## 🧠 Core Competencies Exhibited
+*   **Log Correlation & Triage:** Ability to pull relevant artifacts (IPs, Hashes, Timestamps) from raw alerts.
+*   **Operational Communication:** Writing clear, concise, and professional handovers free of ambiguity.
+*   **Incident Framework Mapping:** Documenting anomalies using structured templates ideal for auditing and fast remediation.
